@@ -145,7 +145,7 @@ body, html {
 }
 
 .playlist-entry.selected, .chromecast-entry.selected {
-  background-color: #31A357;
+  background-color: orangered;
 }
 
 #popup .header {
@@ -159,7 +159,7 @@ body, html {
 
 #popup .button {
   margin: 10px;
-  background-color: #31A357;
+  background-color: orangered;
   padding: 10px;
   text-align: center;
   color: #E1E1E1;
@@ -247,7 +247,7 @@ body:hover #overlay, body:hover .titlebar {
 }
 
 #controls-timeline-position {
-  background-color: #31A357;
+  background-color: orangered;
   width: 0%;
   height: 10px;
   transition: width 0.25s linear;
@@ -278,7 +278,7 @@ body:hover #overlay, body:hover .titlebar {
 #controls-play span:hover .mega-octicon, #player-downloadspeed span:hover .mega-octicon,
 #controls-fullscreen span:hover .mega-octicon, #controls-playlist span:hover .mega-octicon,
 #controls-chromecast span:hover .mega-octicon {
-  color: #31A357;
+  color: orangered;
 }
 
 #controls-chromecast .chromecast {
@@ -307,7 +307,7 @@ body:hover #overlay, body:hover .titlebar {
 }
 
 #controls-playlist.selected .mega-octicon {
-  color: #31A357;
+  color: orangered;
 }
 
 .mega-octicon {
@@ -316,7 +316,7 @@ body:hover #overlay, body:hover .titlebar {
 }
 
 #controls-play .mega-octicon {
-  color: #31A357;
+  color: orangered;
 }
 
 #controls-time {
@@ -345,7 +345,7 @@ body:hover #overlay, body:hover .titlebar {
 
 #controls-volume-slider {
   -webkit-appearance: none;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #31A357), color-stop(50%, #727374));
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, orangered), color-stop(50%, #727374));
   width: 50px;
   height: 3px;
   border-radius: 0px;
@@ -353,7 +353,7 @@ body:hover #overlay, body:hover .titlebar {
 
 #controls-volume-slider::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background-color: #31A357;
+  background-color: orangered;
   opacity: 1.0;
   width: 7px;
   height: 7px;

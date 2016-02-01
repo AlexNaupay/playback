@@ -4,7 +4,6 @@
   "description": "Video player build using atom-shell and node.js",
   "main": "app.js",
   "dependencies": {
-    "JSONStream": "^0.10.0",
     "chromecasts": "^1.2.1",
     "concat-stream": "^1.4.7",
     "dombo": "^3.2.0",
@@ -12,6 +11,7 @@
     "duplexify": "^3.2.0",
     "end-of-stream": "^1.1.0",
     "filereader-stream": "^0.2.0",
+    "JSONStream": "^0.10.0",
     "minimist": "^1.1.1",
     "multicast-dns": "^2.0.0",
     "network-address": "^1.0.0",
